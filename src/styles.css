@@ -1,1 +1,36 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* CSS Variables */
+* {
+    --dark-blue: #0b132b;
+    --standard-blue: #1c2541;
+    --light-blue: #3a506b;
+    --dark-gray: #1d1b22;
+    --standard-gray: #26262e;
+    --light-gray: #797975;
+}
+
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: white;
+}
+
+html {
+    background-color: var(--dark-gray);
+}
+
+button {
+    cursor: pointer;
+}
+

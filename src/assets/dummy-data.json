@@ -1,0 +1,82 @@
+[
+    {
+        "title": "Olaszország",
+        "images": [
+            "../../assets/placeholder.jpg",
+            "../../assets/placeholder.jpg",
+            "../../assets/placeholder.jpg",
+            "../../assets/placeholder.jpg"
+        ],
+        "folders": [
+            {
+                "title": "Velence",
+                "images": [
+                    "../../assets/placeholder.jpg",
+                    "../../assets/placeholder.jpg",
+                    "../../assets/placeholder.jpg",
+                    "../../assets/placeholder.jpg",
+                    "../../assets/placeholder.jpg",
+                    "../../assets/placeholder.jpg",
+                    "../../assets/placeholder.jpg",
+                    "../../assets/placeholder.jpg",
+                    "../../assets/placeholder.jpg",
+                    "../../assets/placeholder.jpg",
+                    "../../assets/placeholder.jpg",
+                    "../../assets/placeholder.jpg",
+                    "../../assets/placeholder.jpg",
+                    "../../assets/placeholder.jpg",
+                    "../../assets/placeholder.jpg",
+                    "../../assets/placeholder.jpg"
+                ],
+                "folders": [
+                    {
+                        "title": "Szent Márk tér",
+                        "images": [
+                            "../../assets/placeholder.jpg",
+                            "../../assets/placeholder.jpg",
+                            "../../assets/placeholder.jpg",
+                            "../../assets/placeholder.jpg",
+                            "../../assets/placeholder.jpg",
+                            "../../assets/placeholder.jpg",
+                            "../../assets/placeholder.jpg"
+                        ]
+                    }
+                ]
+            },
+            {
+                "title": "Róma",
+                "images": [
+                    "../../assets/placeholder.jpg",
+                    "../../assets/placeholder.jpg",
+                    "../../assets/placeholder.jpg",
+                    "../../assets/placeholder.jpg",
+                    "../../assets/placeholder.jpg",
+                    "../../assets/placeholder.jpg",
+                    "../../assets/placeholder.jpg",
+                    "../../assets/placeholder.jpg"
+                ],
+                "folders":[]
+            }
+        ]
+    },
+    {
+        "title": "Ausztria",
+        "images": [
+            "../../assets/placeholder.jpg",
+            "../../assets/placeholder.jpg"
+        ],
+        "folders": [
+            {
+                "title": "Karácsonyi vásár",
+                "images": [
+                    "../../assets/placeholder.jpg",
+                    "../../assets/placeholder.jpg",
+                    "../../assets/placeholder.jpg",
+                    "../../assets/placeholder.jpg",
+                    "../../assets/placeholder.jpg",
+                    "../../assets/placeholder.jpg"
+                ]
+            }
+        ]
+    }
+]

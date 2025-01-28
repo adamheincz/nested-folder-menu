@@ -1,0 +1,70 @@
+:host {
+    display: flex;
+    width: 100%;
+    min-height: 600px;
+    background-color: var(--standard-gray);
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+.folders {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 1rem;
+    width: 100%;
+}
+
+.main-folders {
+    border-right: 1px var(--dark-gray) solid;
+}
+
+.main-folders > h2 {
+    cursor: pointer;
+}
+
+.inner-folders {
+    /* background-color: var(--light-blue); */
+    padding: 1rem;
+    padding-top: 0;
+    border-radius: 0.5rem;
+}
+
+.inner-folders h3 {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: var(--dark-gray);
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+}
+
+.nav-bar > button {
+    font-size: 1rem;
+    padding: 0.25rem 0.5rem;
+    margin-right: 1rem;
+    background-color: var(--standard-gray);
+    border-radius: 0.15rem;
+    border: none;
+}
+
+.nav-bar a {
+    cursor: pointer;
+}
+
+.images {
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.images > img {
+    height: 100px;
+    border-radius: 0.25rem;
+}

@@ -1,0 +1,28 @@
+<div class="folders">
+    <div class="main-folders">
+        @for (folder of folders$ | async; track folder) {
+        <h2 (click)="onOpenMainFolder(folder)">{{ folder.title }}</h2>
+        }
+    </div>
+    <div class="inner-folders">
+        <div class="nav-bar">
+            <button (click)="onBack()">Back</button>
+            @for (folder of folderStack$ | async; let last = $last; track folder;) {
+            <a (click)="onOpenFolder(folder)">{{ folder.title }}</a>
+            @if (!last) {
+            <span class="material-icons">
+                chevron_right
+            </span>
+            }
+            }
+        </div>
+        @for (folder of (inspectedFolder$ | async)?.folders; track folder) {
+        <h3 (click)="onOpenFolder(folder)">{{ folder.title }}</h3>
+        }
+        <div class="images">
+            @for (image of (inspectedFolder$ | async)?.images; track image) {
+            <img [src]="image" alt="Placeholder">
+            }
+        </div>
+    </div>
+</div>
